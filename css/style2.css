@@ -1,0 +1,275 @@
+body {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 608px;
+    height: 800px;
+    top: 175px;
+    left: 416px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 580px;
+    margin-top: 20px;
+}
+
+.sign-in {
+    width: 61px;
+    height: 19px;
+    left: 845px;
+    top: 212px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #92929D;
+
+
+
+}
+
+.sign-up {
+    width: 58px;
+    height: 19px;
+    left: 536px;
+    top: 215px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+h2 {
+    flex: none;
+    margin-right: -305px;
+    width: 304px;
+    height: 4px;
+    margin-top: 10px;
+    background: #F04C04;
+}
+
+.content {
+    display: block;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
+
+.content label {
+    width: 368px;
+    height: 19px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-left: 28px;
+}
+
+.content input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 2px 2px;
+    gap: 10px;
+    margin-top: 8px;
+    width: 370px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #F04C04;
+    border-radius: 8px;
+    flex: none;
+    margin-left: 10px;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+::placeholder {
+    width: 352px;
+    height: 19px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+    flex: none;
+    order: 0;
+    padding-left: 20px;
+    flex-grow: 1;
+}
+
+.password {
+    margin-top: 20px;
+}
+
+span {
+    display: flex;
+    justify-content: end;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 11px;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+}
+
+.signin-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 22px;
+    gap: 10px;
+    width: 380px;
+    height: 48px;
+    left: 520px;
+    top: 556px;
+    background: #F04C04;
+    border-radius: 8px;
+    border: transparent;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+a {
+    width: 53px;
+    height: 19px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.008em;
+    color: #9A9AB0;
+    margin-top: 5px;
+}
+
+.signup-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 22px;
+    gap: 10px;
+    width: 380px;
+    height: 48px;
+    left: 520px;
+    top: 556px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border-color: #F04C04;
+    margin-left: 10px;
+    margin-top: -6px;
+
+}
+
+.a-2 {
+    width: 149px;
+    height: 19px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #F04C04;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.p1 {
+    width: 304px;
+    height: 36px;
+    background: url(../images/v1_1038.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.lbl-email {
+    margin-top: 15px;
+}
+
+input[type="checkbox"] {
+    background: #FFFFFF;
+    border-color: #F04C04;
+    border-radius: 4px;
+    width: 20px;
+}
+
+.check {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.check h4 {
+    width: 300px;
+    height: 0px;
+    margin-left: 0px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    color: #9A9AB0;
+}
