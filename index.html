@@ -3,13 +3,26 @@
 
 <head>
     <link rel="stylesheet" href="./css/style.css">
+    <script>
+        function show() {
+            var x = document.getElementById("signinn");
+            var y = document.getElementById("signup");
+            if (y.style.display === "none") {
+                y.style.display = "flex";
+                x.style.display = "none"
+            } else if(x.style.display === "none") {
+                x.style.display = "flex";
+                y.style.display = "none"
+            }
+        }
+    </script>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="signinn">
         <div class="header">
             <h1 class="sign-in">Sign In</h1>
-            <a href="signup.html"> <h1 class="sign-up">Sign Up</h1></a>
+            <h1 onclick="show()" class="sign-up">Sign Up</h1>
         </div>
         <h2></h2>
         <div class="content">
@@ -27,5 +40,42 @@
             <button class="signup-btn"><a href="3" class="a-2">Sign in with google</a></button>
         </div>
     </div>
+
+    <!--asd-->
+
+    <div class="container" id="signup" style="display: none;">
+        <div class="header">
+                <h1 class="sign-in" onclick="show()">Sign In</h1>
+            <h1 class="sign-up">Sign Up</h1>
+        </div>
+        <h5></h5>
+        <div class="content">
+            <label for="name">
+                Name
+            </label>
+            <input type="text" placeholder="Place your Name in here">
+            <label for="email" class="lbl-email">
+                Email
+            </label>
+            <input type="email" placeholder="Place your email in here">
+            <label for="password" class="password">
+                Password
+            </label>
+            <input type="password" placeholder="Place your password in here">
+            <label for="password" class="password">
+                Confirm Password
+            </label>
+            <input type="password" placeholder="Place your password in here">
+
+            <div class="check">
+                <span><input class="chk" type="checkbox"></span>
+                <h4>I have read and agree to the Terms of Service</h4>
+            </div>
+            <button class="signin-btn"><a href="3">Sign In</a></button>
+            <p>or</p>
+            <button class="signup-btn"><a href="3" class="a-2">Sign in with google</a></button>
+        </div>
+    </div>
 </body>
+
 </html>
