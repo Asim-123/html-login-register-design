@@ -370,7 +370,7 @@ input[type="checkbox"] {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-left: 120px;
+        margin-left: 140px;
         height: 800px;
     }
     h2 {
@@ -383,7 +383,7 @@ input[type="checkbox"] {
     }
     h5 {
         flex: none;
-        margin-right: -340px;
+        margin-right: -350px;
         width: 200px;
         height: 4px;
         margin-top: 10px;
