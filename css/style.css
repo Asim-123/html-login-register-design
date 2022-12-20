@@ -95,7 +95,7 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 2px 2px 2px;
+    padding: 1px 1px 1px;
     gap: 10px;
     margin-top: 8px;
     width: 370px;
@@ -108,6 +108,15 @@ h2 {
     order: 1;
     align-self: stretch;
     flex-grow: 0;
+    caret-color: red;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+    padding-left: 0.5rem;
 }
 
 ::placeholder {
@@ -124,9 +133,14 @@ h2 {
     order: 0;
     padding-left: 20px;
     flex-grow: 1;
+
 }
 
 input:hover::placeholder {
+    color: #F04C04;
+}
+
+input:focus::placeholder {
     color: #F04C04;
 }
 
@@ -262,7 +276,7 @@ a {
     align-items: center;
     flex-direction: column;
     width: 608px;
-    height: auto;
+    height: 800px;
     left: 416px;
     border-radius: 8px;
 }
@@ -364,6 +378,7 @@ input[type="checkbox"] {
         flex-direction: column;
         margin-left: 120px;
     }
+
     .container1 {
         background-color: #FFFFFF;
         display: flex;
@@ -373,6 +388,7 @@ input[type="checkbox"] {
         margin-left: 150px;
         height: 800px;
     }
+
     h2 {
         flex: none;
         margin-left: -313px;
@@ -381,6 +397,7 @@ input[type="checkbox"] {
         margin-top: 10px;
         background: #F04C04;
     }
+
     h5 {
         flex: none;
         margin-right: -350px;
@@ -389,6 +406,7 @@ input[type="checkbox"] {
         margin-top: 10px;
         background: #F04C04;
     }
+
     header {
         display: flex;
         justify-content: space-around;
@@ -412,6 +430,7 @@ input[type="checkbox"] {
         margin-top: 20px;
         margin-left: 10px;
     }
+
     .signup-btn {
         display: flex;
         flex-direction: row;
