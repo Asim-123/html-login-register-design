@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
+    <meta http-equiv="content-language" content="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
         function show() {
             var x = document.getElementById("signinn");
@@ -10,7 +13,7 @@
             if (y.style.display === "none") {
                 y.style.display = "flex";
                 x.style.display = "none"
-            } else if(x.style.display === "none") {
+            } else if (x.style.display === "none") {
                 x.style.display = "flex";
                 y.style.display = "none"
             }
@@ -43,13 +46,13 @@
 
     <!--asd-->
 
-    <div class="container" id="signup" style="display: none;">
-        <div class="header">
-                <h1 class="sign-in" onclick="show()">Sign In</h1>
+    <div class="container1" id="signup" style="display: none;">
+        <div class="header1">
+            <h1 class="sign-in" onclick="show()">Sign In</h1>
             <h1 class="sign-up">Sign Up</h1>
         </div>
         <h5></h5>
-        <div class="content">
+        <div class="content" style="margin-top: 10px;">
             <label for="name">
                 Name
             </label>
