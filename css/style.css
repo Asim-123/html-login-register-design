@@ -363,6 +363,8 @@ input[type="checkbox"] {
         align-items: center;
         flex-direction: column;
         margin-left: 120px;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     .container1 {
         background-color: #FFFFFF;
@@ -372,6 +374,8 @@ input[type="checkbox"] {
         flex-direction: column;
         margin-left: 140px;
         height: 800px;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     h2 {
         flex: none;
